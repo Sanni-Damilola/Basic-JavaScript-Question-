@@ -1,0 +1,352 @@
+body, html {
+    margin:0;
+    padding:0;
+    font-family: arial;
+}
+
+body a {
+
+        color: #1096D5;
+        font-size: 16px;
+
+}
+
+.page-container {
+    width: 100%;
+    min-width: 300px;
+    height: 100vh;
+    background: url('../img/bg.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+header {
+    text-align: center;
+    padding-top: 60px;
+    margin: 0 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo-area > img {
+    width: 100px;
+    height: auto;
+}
+
+.course-title {
+    color: white;
+}
+.course-title h1 {
+    font-size: 24px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.course-title h2 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+main {
+    padding: 40px 50px 80px 50px;
+    background-color: white;
+    width: 70%;
+    max-width: 960px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    text-align: left;
+}
+
+main h1,h2,h3,h4,h5,h6 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+
+main h3 {
+    font-size: 22px;
+}
+
+main ul {
+    margin: 10px 0 30px 0;
+}
+
+main p,li,a {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+
+main pre {
+    margin: 10px 0;
+    font-size: 14px;
+    text-align: left;
+}
+
+main figure {
+    margin: 30px 0;
+}
+
+main figure img {
+    max-width: 100%;
+}
+
+main figure figcaption,a {
+    font-size: 13px;
+}
+
+main button {
+    padding: 0 10px;
+    height: 50px;
+    width: 200px;
+    max-width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: none;
+    background-color: #27ae61;
+    border: 1px solid #27ae61;
+    transition: 0.5s;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    min-width: 189px;
+    vertical-align: middle;
+}
+
+main button:hover {
+    background-color: #034732;
+    border: 1px solid #034732;
+    transition: 1s;
+}
+
+main button:focus {
+    outline: 0;
+}
+
+main .tableBox {
+    padding: 15px 0;
+    overflow-x: auto;
+    width: 100%;
+}
+
+main .tableBox table {
+    max-width: 900px;
+    border-collapse: collapse;
+    font-family: arial;
+}
+
+
+main .tableBox table td,th {
+    padding: 5px 0;
+    min-width: 180px;
+    border: solid 1px black;
+    font-size: 15px;
+
+}
+
+main .tableBox table th {
+    text-align: center;
+    background-color: rgb(230,230,230);
+}
+
+main .tableBox table td {
+    padding: 5px 6px;
+}
+
+main input {
+    margin: 20px 0; 
+    font-size: 14px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 50px;
+    width: 300px;
+    max-width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main input[type="radio"], main input[type="checkbox"] {
+    width: 20px;
+    margin: 0;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+main .caixa_outer {
+    margin: 20px 0; 
+    padding: 20px;
+    font-size: 14px;
+    border: 2px solid black;
+}
+
+main .inline {
+    display: inline-block;
+}
+
+main .redborder {
+    border-color: red;
+}
+
+main .blueborder {
+    border-color: blue;
+}
+
+main .greenborder {
+    border-color: green;
+}
+
+main .yellowborder {
+    border-color: yellow;
+}
+
+main .dark_box {
+    background-color: #2d2f31;
+    color: white;
+    font-size: 16px;
+}
+
+main .dark_box .dark_box_title {
+    padding: 15px;
+}
+
+main .dark_box .dark_box_content {
+    background-color: #464849;
+    padding: 15px;
+}
+
+
+.accordion {
+    background-color: white;
+}
+
+.accordion .options {
+    border-bottom: 4px solid #27ae61;
+    
+}
+
+.accordion .opt {
+    font-size: 14px;
+    display: inline-block;
+    padding: 18px 35px;
+    margin-right: 1px;
+    background-color: #2d3e50;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.accordion .content {
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 35px;
+    background-color: #2d3e50;
+    
+}
+
+
+
+#bottom-area .section-index{
+    background-color: #F0F0F0;
+    padding: 12px 6px;
+    margin-top: 18px;
+    margin-bottom: 6px;
+    font-weight: bold;
+
+}
+
+#bottom-area .link-aula {
+    width: 49%;
+    display: inline-block;
+    text-align: left;
+    margin-top: 50px;
+}
+
+
+
+#bottom-area .link-aula a {
+    font-weight: 700;
+    font-family:'Poppins', sans-serif;
+    color: #D95034;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+
+#bottom-area #prev_class {
+    text-align: left;
+}
+
+#bottom-area #next_class {
+    text-align: right;
+}
+
+#bottom-area .link-aula a:visited {
+    color: #D95034;
+}
+
+#bottom-area .prev-next-link {
+    display: block;
+
+}
+
+#bottom-area .classes {
+    clear: both;
+    margin-top: 50px;
+
+}
+
+#bottom-area .classes ul {
+    padding-left: 0;
+    list-style-type: none;
+    font-family:'Poppins', sans-serif;
+    font-size: 14px;
+
+
+}
+
+#bottom-area .classes ul a {
+    color: #1096D5;
+    font-weight: 400;
+}
+
+#bottom-area .classes ul a:visited {
+    color: #1096D5;
+}
+
+
+
+
+#form_area label {
+    display: block;
+    margin-bottom: 0;
+}
+
+#form_area input {
+    margin-top: 5px;
+    margin-bottom: 25px;
+    padding: 14px;
+    display: block;
+}
+
+
+
+
+
+#user_greeting_message {
+    color: #1096D5;
+    font-weight: 700;
+}
+
+

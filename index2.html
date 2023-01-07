@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="css/default.css" />
+    <script src="tools/indice.js"></script>
+    <script>
+      var current_class = "exercicio2";
+    </script>
+    <script src="highlight/highlight.pack.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>List of Exercises # 2</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+
+  <body>
+    <div class="page-container">
+      <header>
+        <div class="logo-area">
+          <img src="img/logo_js.png" alt="logo javascript" />
+        </div>
+        <div class="course-title">
+          <h1>Javascript Course for Beginners</h1>
+          <h2>Instructor: Ivan Lourenço Gomes</h2>
+        </div>
+      </header>
+
+      <main>
+        <h3>List of Exercises # 2</h3>
+        <br />
+
+        <p>
+          1) Create a function to convert Celsius to Fahrenheit. Use it to
+          convert the temperatures below:
+        </p>
+
+        <p>The formula for the conversion is: F = (9 * C / 5) + 32</p>
+
+        <div class="caixa_outer blueborder inline">
+          <div id="celsius_1">38</div>
+        </div>
+        <sup>o</sup>C =
+        <div class="caixa_outer yellowborder inline">
+          <div id="fahr_1">show the result here</div>
+        </div>
+        <sup>o</sup>F
+        <br />
+
+        <div class="caixa_outer blueborder inline">
+          <div id="celsius_2">24</div>
+        </div>
+        <sup>o</sup>C =
+        <div class="caixa_outer yellowborder inline">
+          <div id="fahr_2">show the result here</div>
+        </div>
+        <sup>o</sup>F
+
+        <br />
+
+        <div class="caixa_outer blueborder inline">
+          <div id="celsius_3">-1</div>
+        </div>
+        <sup>o</sup>C =
+        <div class="caixa_outer yellowborder inline">
+          <div id="fahr_3">show the result here</div>
+        </div>
+        <sup>o</sup>F
+
+        <br />
+
+        <p>
+          2) The array below is the classification of students in a contest. It
+          is ordered from lowest to highest grades.
+        </p>
+
+        <pre>
+                <code class="javascript">
+    var classification = [ "John Hill" , "Mary Jane", "Gary Vee", "Paricia Mills", "Helen Hall", "Paul Green" ]; 
+                </code>
+            </pre>
+
+        <div class="caixa_outer inline">
+          <div id="best_students">
+            show the names of the three best students here
+          </div>
+        </div>
+
+        <br />
+
+        <p>3) Consider the object below:</p>
+
+        <pre>
+                <code class="javascript">
+    var course = {
+        'title': "Learn to Code in Python 3",
+        'categories': ['programming', 'technology', 'python'],
+        '5_stars_reviews': 420,
+        '4_stars_reviews': 80,
+        '3_stars_reviews': 33,
+        '2_stars_reviews': 20,
+        '1_stars_reviews': 4
+    }
+                </code>
+            </pre>
+
+        <p>a) Show the course title in the box below:</p>
+
+        Course title:
+        <div class="caixa_outer inline blueborder">
+          <div id="course_title">show the course title here</div>
+        </div>
+
+        <p>
+          b) The main category is the first element of the categories array.
+          Show it in the box below:
+        </p>
+
+        Main Category:
+        <div class="caixa_outer inline blueborder">
+          <div id="main_category">show the main category here</div>
+        </div>
+
+        <p>
+          c) Create a method to calculate the percentage of 5 stars reviews
+          rounded with no decimal places and show the result below:
+        </p>
+
+        Percentage of 5 stars reviews:
+        <div class="caixa_outer inline blueborder">
+          <div id="reviews_5_stars">
+            Show the percentage here (example: 78%)
+          </div>
+        </div>
+
+        <br />
+
+        <p>4) See the shopping list below:</p>
+
+        <pre>
+                <code class="javascript">
+
+    var shoppingList = ["Milk", "Butter", "Juice", "Bread", "Beer", "Rice", "Potatoes", "Chocolate"]; 
+
+                </code>
+            </pre>
+
+        <p>Do the following changes to the list:</p>
+
+        <ul>
+          <li>Get the last item and place it at the beginning of the list.</li>
+          <li>Add two more items at the end of the list: Cheese and Eggs</li>
+        </ul>
+
+        <p>Show the updated list in the console.</p>
+
+        <br />
+      </main>
+    </div>
+    <script src="solution.js"></script>
+  </body>
+</html>
